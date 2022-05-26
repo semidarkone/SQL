@@ -1,0 +1,34 @@
+CREATE TABLE Movies (name TEXT, genre TEXT, year integer, rating integer);
+
+insert into movies 
+(name, genre, year,rating) values ( " The Shawshank Redemption","Drama","1994", "9.3");
+insert into movies
+(name, genre, year,rating) values (" The Dark Knight", "Action Drama","2008","9.0");
+insert into movies
+(name, genre, year,rating) values (" 12 Angry Men", " Crime Drama","1957","9.0");
+insert into movies
+(name, genre, year,rating) values ("Pulp Fiction", " Crime Drama","1994","8.9");
+insert into movies
+(name, genre, year,rating) values ("Fight Club", "Drama","1999","8.8");
+insert into movies
+(name, genre, year,rating) values ("The Matrix", "Action Sci-Fi","1999","8.7");
+insert into movies
+(name, genre, year,rating) values ("Se7en","Crime Drama","1995","8.6");
+insert into movies
+(name, genre, year,rating) values ("City of God","Crime Drama","2002","8.6");
+insert into movies
+(name, genre, year,rating) values ("Terminator 2: Judgement Day","Action Sci-Fi","1991","8.6");
+insert into movies
+(name, genre, year,rating) values ("Spirited Away","Animation Fantasy Mystery","2001","8.6");
+insert into movies
+(name, genre, year,rating) values ("Alien","Horror Sci-Fi","1979","8.5");
+insert into movies
+(name, genre, year,rating) values ("Aliens","Action Sci-Fi","1986","8.4");
+insert into movies
+(name, genre, year,rating) values ("Oldboy","Action Mystery","2003","8.4");
+insert into movies
+(name, genre, year,rating) values ("Princess Mononoke","Animation Action Fantasy","1997","8.4");
+insert into movies
+(name, genre, year,rating) values ("Reservoir Dogs","Crime Drama Thriller","1992","8.3");
+select * from movies where year order by year desc;
+SELECT * FROM Movies;
